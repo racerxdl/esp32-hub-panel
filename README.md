@@ -6,6 +6,8 @@ This is a very hacky code that will display a clock in two 64x32 HUB75 LED Matri
 
 If an image has not been sent to the panel in the last 5 seconds, it automatically switches back to clock mode.
 
+The panel used in this project is this one [https://s.click.aliexpress.com/e/_AAr36k](https://s.click.aliexpress.com/e/_AAr36k) - But chinese led panel manufactures like to change the specifications of the panel, so if you are from the future, the panel might have changed and might need some tweaks.
+
 # Required Libraries
 
 * https://github.com/adafruit/Adafruit-GFX-Library
