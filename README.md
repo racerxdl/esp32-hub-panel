@@ -8,6 +8,8 @@ If an image has not been sent to the panel in the last 5 seconds, it automatical
 
 The panel used in this project is this one [https://s.click.aliexpress.com/e/_AAr36k](https://s.click.aliexpress.com/e/_AAr36k) - But chinese led panel manufactures like to change the specifications of the panel, so if you are from the future, the panel might have changed and might need some tweaks.
 
+Uses [https://github.com/pixelmatix/aurora](https://github.com/pixelmatix/aurora) effects for the background effect. The license and credits retained in the files I copied from the project ( `PatternMaze.h`, `PatternSnake.h`, `drawable.h`, `Effects.h` )
+
 # Required Libraries
 
 * https://github.com/adafruit/Adafruit-GFX-Library
