@@ -1,10 +1,37 @@
-# esp32-hub-panel
+# ESP32 HUB Panel
 A ESP32 clock / display using 64x32 HUB75 panels.
 
 
 This is a very hacky code that will display a clock in two 64x32 HUB75 LED Matrix Panels arranged in a 64x64 matrix. It can also receive images through UDP.
 
 If an image has not been sent to the panel in the last 5 seconds, it automatically switches back to clock mode.
+
+# Required Libraries
+
+* https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA
+* https://github.com/FastLED/FastLED
+
+# Wiring
+
+The LED panels are in daisy-chain mode (the output of the first one hooked up the input of the second one). And the first panel is connected to ESP32 by default through these pins:
+
+|HUB75|ESP32 Pin|
+|R1  | 14 |
+|G1  | 15 |
+|BL1 | 16 |
+|R2  | 17 |
+|G2  | 18 |
+|BL2 | 19 |
+|A   | 21 |
+|B   | 22 |
+|C   | 23 |
+|D   | 25 |
+|CLK |  2 |
+|LAT | 27 |
+|OE  |  5 |
+
+
+The pins can be changed in `ledcontroller.h` file.
 
 # Clock Mode
 
