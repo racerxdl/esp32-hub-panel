@@ -8,6 +8,7 @@ If an image has not been sent to the panel in the last 5 seconds, it automatical
 
 # Required Libraries
 
+* https://github.com/adafruit/Adafruit-GFX-Library
 * https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA
 * https://github.com/FastLED/FastLED
 
