@@ -17,7 +17,7 @@ Use sendimage golang script:
 ```bash
 cd sendimage
 go build -o send
-send image.jpg HOSTNAME.local
+./send image.jpg HOSTNAME.local
 ```
 
 ![Image Mode](sendimage.jpg)
