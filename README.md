@@ -16,6 +16,7 @@ If an image has not been sent to the panel in the last 5 seconds, it automatical
 The LED panels are in daisy-chain mode (the output of the first one hooked up the input of the second one). And the first panel is connected to ESP32 by default through these pins:
 
 |HUB75|ESP32 Pin|
+|-|-|
 |R1  | 14 |
 |G1  | 15 |
 |BL1 | 16 |
